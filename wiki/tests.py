@@ -2,8 +2,6 @@ from django.test import TestCase
 from django.contrib.auth.models import User
 from wiki.models import Page
 
-# Create your tests here.
-
 
 class WikiTests(TestCase):
     def test_detail_page(self):
